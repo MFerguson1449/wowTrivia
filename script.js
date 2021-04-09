@@ -88,46 +88,46 @@ const questions = [
    {
       question: 'What room in Stormwind City did you used to have to visit to qeue for a battleground?',
       answers: [
-         { text: 'Khadgar', correct: true },
-         { text: 'Battle', correct: false },
-         { text: 'War Room', correct: false },
-         { text: 'Jaina', correct: false }
+         { text: 'SI:7 Headquarters', correct: false },
+         { text: 'Great Hall', correct: false },
+         { text: 'War Room', correct: true },
+         { text: 'Cathedral', correct: false }
       ]
    },
    {
-      question: 'Whos is Medivh \'s apprentice?',
+      question: 'What was the name of the Legendary that dropped only once?',
       answers: [
-         { text: 'Khadgar', correct: true },
-         { text: 'Jaina', correct: false },
-         { text: 'Jaina', correct: false },
-         { text: 'Jaina', correct: false }
+         { text: 'Ironfoe', correct: false },
+         { text: 'Pendulum of Doom', correct: false },
+         { text: 'The One Ring', correct: false },
+         { text: 'Talisan of Binding Shard', correct: true }
       ]
    },
    {
-      question: 'Whos is Medivh \'s apprentice?',
+      question: 'What was Varian Wrynn\'s gladiator name',
       answers: [
-         { text: 'Khadgar', correct: true },
-         { text: 'Jaina', correct: false },
-         { text: 'Jaina', correct: false },
-         { text: 'Jaina', correct: false }
+         { text: 'Lo\'gosh', correct: true },
+         { text: 'Priscus', correct: false },
+         { text: 'Broll', correct: false },
+         { text: 'Go\el', correct: false }
       ]
    },
    {
-      question: 'Whos is Medivh \'s apprentice?',
+      question: 'Who is the Loa of Theives?',
       answers: [
-         { text: 'Khadgar', correct: true },
-         { text: 'Jaina', correct: false },
-         { text: 'Jaina', correct: false },
-         { text: 'Jaina', correct: false }
+         { text: 'Sseratus', correct: false },
+         { text: 'Rezan', correct: false },
+         { text: 'Hakkar', correct: false },
+         { text: 'Jani', correct: true }
       ]
    },
    {
-      question: 'Whos is Medivh \'s apprentice?',
+      question: 'Whos is the God of the Hunt',
       answers: [
-         { text: 'Khadgar', correct: true },
-         { text: 'Jaina', correct: false },
-         { text: 'Jaina', correct: false },
-         { text: 'Jaina', correct: false }
+         { text: 'Akunda', correct: true },
+         { text: 'Rexxar', correct: false },
+         { text: 'Rezan', correct: true },
+         { text: 'Glirin', correct: false }
       ]
    },
 ]

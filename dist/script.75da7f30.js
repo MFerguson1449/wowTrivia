@@ -231,76 +231,76 @@ var questions = [{
 }, {
   question: 'What room in Stormwind City did you used to have to visit to qeue for a battleground?',
   answers: [{
-    text: 'Khadgar',
-    correct: true
+    text: 'SI:7 Headquarters',
+    correct: false
   }, {
-    text: 'Battle',
+    text: 'Great Hall',
     correct: false
   }, {
     text: 'War Room',
-    correct: false
+    correct: true
   }, {
-    text: 'Jaina',
+    text: 'Cathedral',
     correct: false
   }]
 }, {
-  question: 'Whos is Medivh \'s apprentice?',
+  question: 'What was the name of the Legendary that dropped only once?',
   answers: [{
-    text: 'Khadgar',
+    text: 'Ironfoe',
+    correct: false
+  }, {
+    text: 'Pendulum of Doom',
+    correct: false
+  }, {
+    text: 'The One Ring',
+    correct: false
+  }, {
+    text: 'Talisan of Binding Shard',
+    correct: true
+  }]
+}, {
+  question: 'What was Varian Wrynn\'s gladiator name',
+  answers: [{
+    text: 'Lo\'gosh',
     correct: true
   }, {
-    text: 'Jaina',
+    text: 'Priscus',
     correct: false
   }, {
-    text: 'Jaina',
+    text: 'Broll',
     correct: false
   }, {
-    text: 'Jaina',
+    text: 'Go\el',
     correct: false
   }]
 }, {
-  question: 'Whos is Medivh \'s apprentice?',
+  question: 'Who is the Loa of Theives?',
   answers: [{
-    text: 'Khadgar',
+    text: 'Sseratus',
+    correct: false
+  }, {
+    text: 'Rezan',
+    correct: false
+  }, {
+    text: 'Hakkar',
+    correct: false
+  }, {
+    text: 'Jani',
     correct: true
-  }, {
-    text: 'Jaina',
-    correct: false
-  }, {
-    text: 'Jaina',
-    correct: false
-  }, {
-    text: 'Jaina',
-    correct: false
   }]
 }, {
-  question: 'Whos is Medivh \'s apprentice?',
+  question: 'Whos is the God of the Hunt',
   answers: [{
-    text: 'Khadgar',
+    text: 'Akunda',
     correct: true
   }, {
-    text: 'Jaina',
+    text: 'Rexxar',
     correct: false
   }, {
-    text: 'Jaina',
-    correct: false
-  }, {
-    text: 'Jaina',
-    correct: false
-  }]
-}, {
-  question: 'Whos is Medivh \'s apprentice?',
-  answers: [{
-    text: 'Khadgar',
+    text: 'Rezan',
     correct: true
   }, {
-    text: 'Jaina',
-    correct: false
-  }, {
-    text: 'Jaina',
-    correct: false
-  }, {
-    text: 'Jaina',
+    text: 'Glirin',
     correct: false
   }]
 }];
@@ -332,7 +332,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "19976" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "22656" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
